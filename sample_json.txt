@@ -1,0 +1,108 @@
+{
+    "data": {
+        "ratings": [
+            {
+                "orderid": 117081568241756,
+                "itemid": 19545586051,
+                "cmtid": 9652035290,
+                "ctime": 1664073800,
+                "rating": 1,
+                "userid": 592634146,
+                "shopid": 848481145,
+                "comment": "It's my second time ordering this. Will recommend to those who want to buy t shirts. Ganda nung tela. Thank you po ulit.",
+                "rating_star": 5,
+                "status": 2,
+                "mtime": 1664073800,
+                "editable": 1,
+                "opt": 2,
+                "filter": 3,
+                "mentioned": [],
+                "is_hidden": false,
+                "author_username": "s3pez23hwb",
+                "author_portrait": "",
+                "author_shopid": 592614561,
+                "anonymous": false,
+                "images": [
+                    "099ddae1cb6d0143959ad9f8dbb46c55",
+                    "9981a7af9bd0d64ad331252ce7863d72",
+                    "da2418ecfeca8820a06d86fb4b709b4d"
+                ],
+                "videos": [],
+                "product_items": [
+                    {
+                        "itemid": 19545586051,
+                        "shopid": 848481145,
+                        "name": "TShirt for Men Women Inspired Cotton Trendy Loose Clothing Oversize Tee Shirts Short Sleeve Swag Top",
+                        "image": "f1d40a16cd5ed5b3b8ea70dd8334356c",
+                        "is_snapshot": 1,
+                        "snapshotid": 3856711050,
+                        "modelid": 174454353558,
+                        "model_name": "DIY-224 WHITE,\u3010XL\u301158kg-65kg",
+                        "options": [
+                            "DIY-224 WHITE",
+                            "\u3010XL\u301158kg-65kg"
+                        ]
+                    }
+                ],
+                "delete_reason": null,
+                "delete_operator": null,
+                "ItemRatingReply": null,
+                "tags": null,
+                "editable_date": 1666665800,
+                "show_reply": null,
+                "like_count": null,
+                "liked": null,
+                "sync_to_social": false,
+                "detailed_rating": {
+                    "product_quality": 5,
+                    "seller_service": 5,
+                    "delivery_service": 5
+                },
+                "exclude_scoring_due_low_logistic": false,
+                "loyalty_info": null,
+                "template_tags": [],
+                "has_template_tag": false,
+                "sync_to_social_toggle": null,
+                "sip_info": {
+                    "is_oversea": false,
+                    "origin_region": "ph"
+                },
+                "is_repeated_purchase": false,
+                "display_variation_filter": true,
+                "overall_fit": 0,
+                "is_normal_item": true,
+                "viewed": null,
+                "show_view": null,
+                "sync_to_social_detail": null
+            },
+        ],
+        "item_rating_summary": {
+            "rating_total": 25,
+            "rating_count": [
+                0,
+                0,
+                0,
+                0,
+                25
+            ],
+            "rcount_with_context": 24,
+            "rcount_with_image": 14,
+            "rcount_with_media": 14,
+            "rcount_local_review": 25,
+            "rcount_repeat_purchase": 0,
+            "rcount_overall_fit_small": 0,
+            "rcount_overall_fit_fit": 0,
+            "rcount_overall_fit_large": 0,
+            "rcount_oversea_review": 0
+        },
+        "is_sip_item": false,
+        "rcmd_algo": "BUNDLE:comment_search,RECALLER:comment_search_default,QUEUE:comment_search_default,ABTEST:2.a.3476@AD0,QUEUES:comment_search_default",
+        "downgrade_switch": false,
+        "has_more": true,
+        "show_local_review": false,
+        "browsing_ui": "AD0",
+        "enable_buyer_gallery_media": false
+    },
+    "error": 0,
+    "error_msg": null
+}

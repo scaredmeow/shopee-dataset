@@ -22,7 +22,7 @@ class ShopeeAPI:
         ratings_url = "https://shopee.ph/api/v2/item/get_ratings?filter=0&flag=1&itemid={item_id}" +\
             "&limit=20&offset={offset}&shopid={shop_id}&type=0"
 
-        data_format = {"userid": [], "username": [], "item": [], "ctime": [], "comment": [], "rating": [],
+        data_format = {"userid": [], "username": [], "item": [], "item_type": [], "ctime": [], "comment": [], "rating": [],
                        "product_quality": [], "seller_service": [], "delivery_service": [], "has_template_tag": [],
                        "template_tags": [], "tags": [], "is_oversea": [], "origin_region": [], "like_count": [],
                        "is_repeated_purchase": [], "exclude_scoring_due_low_logistic": []}
@@ -39,6 +39,7 @@ class ShopeeAPI:
                 data_format["userid"].append(rating["userid"])
                 data_format["username"].append(rating["author_username"])
                 data_format["item"].append(rating["product_items"][0]["name"])
+                data_format["item_type"].append(idx)
                 data_format["ctime"].append(rating["ctime"])
                 data_format["comment"].append(rating["comment"])
                 data_format["rating"].append(rating["rating_star"])
@@ -65,9 +66,11 @@ class ShopeeAPI:
             if i % 20:
                 df = pd.DataFrame(data_format)
                 df.to_csv("data/data"+str(idx)+".csv", index=False)
-                data_format = {"userid": [], "username": [], "item": [], "ctime": [], "comment": [], "rating": [],
-                               "product_quality": [], "seller_service": [], "delivery_service": [], "has_template_tag": [],
-                               "template_tags": [], "tags": [], "is_oversea": [], "origin_region": [], "like_count": [], "is_repeated_purchase": [], "exclude_scoring_due_low_logistic": []}
+                data_format = {"userid": [], "username": [], "item": [], "item_type": [], "ctime": [],
+                               "comment": [], "rating": [], "product_quality": [], "seller_service": [],
+                               "delivery_service": [], "has_template_tag": [], "template_tags": [],
+                               "tags": [], "is_oversea": [], "origin_region": [], "like_count": [],
+                               "is_repeated_purchase": [], "exclude_scoring_due_low_logistic": []}
                 idx += 1
                 offset = 0
             else:
